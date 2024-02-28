@@ -1,5 +1,13 @@
 # jato_insights_debug
 
+jato-plugin.js added to /plugins and added to nuxt.config.js
+
+Demo page with code/component to test in /pages/index.vue with provided dummy data set locally
+
+
+
+
+
 ## Build Setup
 
 ```bash
