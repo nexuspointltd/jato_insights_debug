@@ -132,15 +132,15 @@
                 const jatoPlugin = this.$refs.jatoPlugin;
 
                 if (jatoPlugin) {
-                    console.log("Element found");
-                    
+                    console.log("jato-plugin element found");
+
                     // Simulate data fetch after 1 second
                     setTimeout(() => {
                         // Inject data into the JATO Web Plugin
                         jatoPlugin.data = [this.vehicle.insights];
                     }, 1000);
                 } else {
-                    console.error('jato-plugin element not found');
+                    console.error('jato-plugin element NOT found');
                 }
             }
         },
